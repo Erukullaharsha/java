@@ -102,6 +102,19 @@ public class Big {
         
     }
 }
+import java.util.Scanner;
+
+public class currency {
+    //Input currency in rupees and output in USD.(1 dollar= 83.6Rupees)
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter money(rupees)");
+        float a = sc.nextFloat();
+        System.out.println("conversion money(rupees) to USD... "+a/83.6);
+        sc.close();
+    }
+}
+
 
 
 
