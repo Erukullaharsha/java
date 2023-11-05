@@ -31,3 +31,28 @@ public class Name {
     }   
 }
 ..............................................
+/*
+ Simple Interest(SI)= 
+P⋅R⋅T/100
+Where:
+SI is the simple interest.
+P is the principal amount (the initial amount of money).
+R is the rate of interest per period.
+T is the time (in years) for which the interest is calculated.
+ */
+//Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+import java.util.*;
+public class SimpleIntrest {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter principle amount");
+        int P=sc.nextInt();//princple amount
+        System.out.println("Enter rate of intrest");
+        float R=sc.nextFloat();//rate of intrest
+        System.out.println("Enter time period");
+        int T=sc.nextInt();
+        System.out.println("S.I ="+P*R*T/100);
+        sc.close();
+    }
+}
+
