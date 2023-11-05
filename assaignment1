@@ -19,3 +19,15 @@ class Even {
   }
 }
 ................................................
+import java.util.*;
+//Take name as input and print a greeting message for that particular name.
+public class Name {
+    public static void main(String args[]){
+        System.out.println("Enter name");
+        Scanner sc=new Scanner(System.in);
+        String name=sc.nextLine();
+        System.out.println(" "+name+" Wish you happy birthday");       
+        sc.close();
+    }   
+}
+..............................................
