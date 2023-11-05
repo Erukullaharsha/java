@@ -55,4 +55,33 @@ public class SimpleIntrest {
         sc.close();
     }
 }
+................................................
+import java.util.Scanner;
+//Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+public class Operators {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a num");
+        Double x=sc.nextDouble();
+        System.out.print("Enter a num");
+        int y=sc.nextInt();
+        System.out.println("Enter an operator(+,-,*,/)");
+        char Operator=sc.next().charAt(0);//charAt() used to first letter of word matches to given data or not
+        if (Operator=='+') {
+            System.out.println(x+y);
+        }
+        if (Operator=='-') {
+            System.out.println(x-y);
+        }
+        if (Operator=='*') {
+            System.out.println(x*y);
+        }
+        if (Operator=='/') {
+            System.out.println(x/y);
+        }
+        sc.close();     
+    }
+}
+................................................
+
 
