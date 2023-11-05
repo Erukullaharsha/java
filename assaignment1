@@ -101,7 +101,7 @@ public class Big {
 
         
     }
-}
+}.......................................................
 import java.util.Scanner;
 
 public class currency {
@@ -114,6 +114,32 @@ public class currency {
         sc.close();
     }
 }
+...............................................................
+import java.util.*;
+/*To calculate Fibonacci Series up to n numbers.
+    fibonacci series
+            0+1=1
+              1+1=2
+                1+2=3
+                  2+3=5
+                    3+5=8
+                      5+8=13
+                      ......*/
+public class Fibonacci {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a num");
+        int n = sc.nextInt();
+        int j=1;
+        int k=0+j;
+        for(int i=0;i<=n;i++){
+        j=j+k;
+        k=k+j;
+        System.out.print(j +" "+k+" ");
+        }
+        sc.close();
+    } 
+}.....................................................................
 
 
 
